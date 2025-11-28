@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking Form</title>
+  <link rel="stylesheet" href="style4.css"> 
+  <link rel="icon" type="icon"
+  href="https://file.removal.ai/preview/6245cbf9-5add-4cf6-b797-a06c1d212bd3-travel-tour-logo-with-mountain-airplane-concept_2175-160.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+    <img src="https://img.freepik.com/premium-vector/travel-tour-logo-with-mountain-airplane-concept_2175-160.jpg?semt=ais_hybrid" alt="logo">
+    <div class="navbar">
+        <a href="index.html">Explore</a>
+        <a href="index2.html">Stays</a>
+        <a href="index3.html">Experiences</a>
+        <a href="index4.html">Contact Us</a>
+        <i class="fa-solid fa-user"></i>
+    </div>
+</div>
+
+ </header>
+
+  <div class="booking-container">
+    <h1>Travel Booking Form</h1>
+    <p>Plan your perfect trip with us! Fill out the form below to get started.</p>
+
+    <form class="booking-form" action="#" method="post">
+  
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+   
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+     
+      <label for="destination">Select Destination</label>
+      <select id="destination" name="destination" required>
+        <option value="" disabled selected>Select your destination</option>
+        <option value="paris">Paris</option>
+        <option value="london">London</option>
+        <option value="new-york">New York</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="dubai">Dubai</option>
+        <option value="dubai">Goa</option>
+        <option value="dubai">Manali</option>
+        <option value="dubai">Rishikesh</option>
+        <option value="dubai">ujjain</option>
+        <option value="dubai">india</option>
+      </select>
+
+     
+      <label for="travel-date">Travel Date</label>
+      <input type="date" id="travel-date" name="travel-date" required>
+
+      
+      <label for="travelers">Number of Travelers</label>
+      <input type="number" id="travelers" name="travelers" min="1" placeholder="Enter number of travelers" required>
+
+    
+      <label for="message">Additional Information</label>
+      <textarea id="message" name="message" placeholder="Enter any special requirements or details..." rows="4"></textarea>
+
+     
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+</body>
+</html>

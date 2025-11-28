@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("https://i.pinimg.com/736x/e5/78/b8/e578b8efa061657f5170b7797034684c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+.logo{
+    height: 100px;
+    background-color: rgba(2, 12, 74, 0.447);
+    display: flex;
+}
+.logo img{
+    margin-left: 130px;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 5%;
+    font-size: 22px; 
+    
+
+}
+.navbar i:hover{
+    color: white;
+    background-color: rgb(83,146,249);
+}
+.navbar a{
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: rgb(1, 1, 1);
+    text-decoration: none; 
+
+}
+.navbar a:hover{
+    background-color: rgb(83,146,249);
+    color: white;}
+
+  .booking-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  .booking-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: rgb(15, 14, 14);
+  }
+
+  .booking-container p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: black;
+  }
+
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .booking-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+  }
+
+  .booking-form input,
+  .booking-form select,
+  .booking-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .booking-form input:focus,
+  .booking-form select:focus,
+  .booking-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+
+  .booking-form button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .booking-form button:hover {
+    background: #0056b3;
+  }
+
+  @media (max-width: 468px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .navbar {
+      gap: 10px;
+    }
+
+    .booking-container {
+      margin: 20px;
+      padding: 15px;
+    }
+
+    .booking-form input,
+    .booking-form select,
+    .booking-form textarea {
+      font-size: 0.9rem;
+    }
+
+    .booking-form button {
+      font-size: 0.9rem;
+    }
+  }
+ 
+  @media (max-width: 480px) {
+    .logo img {
+      height: 60px;
+    }
+
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar a {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    .booking-container {
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .booking-form input,
+    .booking-form select,
+    .booking-form textarea {
+      font-size: 0.8rem;
+    }
+
+    .booking-form button {
+      font-size: 0.8rem;
+    }
+  } 
+
+
+
+
+
+
+
